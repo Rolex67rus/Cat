@@ -30,12 +30,10 @@ let intervalId = setInterval(() => {
         clearInterval(intervalId);
     }
     cat.checkState();
-    console.log(cat.food);
 }, 3000);
 
 const btnFeed = document.querySelector('.feed');
 btnFeed.addEventListener('click', () => {
     cat.feed();
-    console.log(cat.food);
 });
 
