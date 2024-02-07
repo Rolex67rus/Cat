@@ -13,9 +13,9 @@ class Cat
 
     checkState() {
         if (cat.food > 50) {
-            document.querySelector('.pet_img').src = 'images.JFIF'
+            document.querySelector('.pet_img').src = 'cutecat2.svg'
         }else {
-            document.querySelector('.pet_img').src = 'images1.PNG'
+            document.querySelector('.pet_img').src = 'Black-Anthropomorphic-Cat.svg'
         }
         document.querySelector('.food').textContent = cat.food;
     }
